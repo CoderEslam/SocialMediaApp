@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
 import com.doubleclick.socialmediaapp.databinding.ActivityMainBinding;
 import com.doubleclick.socialmediaapp.readablebottombar.ReadableBottomBar;
 
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         //Hide Toolbar manually
         //getSupportActionBar().hide();
 
-        setSupportActionBar(binding.toolbar);
+//        setSupportActionBar(binding.toolbar);
         MainActivity.this.setTitle("My Profile");
 
         //Transparent Action Bar
